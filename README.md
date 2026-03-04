@@ -1,6 +1,6 @@
 # Morphing Effect for Jujutsu kaisen characters
 
-Demo of the morphing effect as seen on [Dream Machine](https://lumalabs.ai/dream-machine) by Luma Labs.
+Hi! I first saw this morphing effect on Dream machine by Luma Labs, it's super impressive and I just wantes to see how it will look like if I combine this art with anmie, so I used this morphing effects on characters of Juujutsu kaisen, it was so funny!
 
 ![Featured image](https://tympanus.net/codrops/wp-content/uploads/2024/12/canvas2d_Morphing_featuredimage.png)
 
