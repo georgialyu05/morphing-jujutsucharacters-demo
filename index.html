@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Morphing Effect with Canvas2D | Codrops</title>
+		<meta name="author" content="Chakib Mazouni for Codrops" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	</head>
+  <body class="loading">
+    <main>
+      <div class="bg-overlay bg-overlay--current"></div>
+      <div class="bg-overlay bg-overlay--next"></div>
+      <div id="app">
+        <div class="content">
+          <div class="switcher-container">
+            <div class="switcher-track">
+              <div class="switcher">
+                  <div class="switcher-button-wrapper">
+                  <button data-state="8">
+                    <img src="/public/hajime.png" class="hajime-icon">
+                    <span class="name">Hajime Kashimo</span>
+                  </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="9">
+                    <img src="/public/kinji.png" class="kinji-icon">
+                    <span class="name">Kinji Hakari</span>
+                  </button>
+                </div>
+                
+                <div class="switcher-button-wrapper">
+                    <button data-state="1">
+                      <img src="/public/gojo.png" class="gojo-icon">
+                      <span class="name">Gojo Satoru</span>
+                    </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="2">
+                    <img src="/public/yuji.png" class="yuji-icon">
+                    <span class="name">Itadori Yuji</span>
+                  </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="3">
+                    <img src="/public/megumi.png" class="megumi-icon">
+                    <span class="name">Fushiguro Megumi</span>
+                  </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="4">
+                    <img src="/public/yuta.png" class="yuta-icon">
+                    <span class="name">Okkotsu Yuta</span>
+                  </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="5">
+                    <img src="/public/maki.png" class="maki-icon">
+                    <span class="name">Zenin Maki</span>
+                  </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="6">
+                    <img src="/public/choso.png" class="choso-icon">
+                    <span class="name">Choso</span>
+                  </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="7">
+                    <img src="/public/yuki.png" class="yuki-icon">
+                    <span class="name">Yuki Tsukumo</span>
+                  </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="8">
+                    <img src="/public/hajime.png" class="hajime-icon">
+                    <span class="name">Hajime Kashimo</span>
+                  </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="9">
+                    <img src="/public/kinji.png" class="kinji-icon">
+                    <span class="name">Kinji Hakari</span>
+                  </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                    <button data-state="1">
+                      <img src="/public/gojo.png" class="gojo-icon">
+                      <span class="name">Gojo Satoru</span>
+                    </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="2">
+                    <img src="/public/yuji.png" class="yuji-icon">
+                    <span class="name">Itadori Yuji</span>
+                  </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="3">
+                    <img src="/public/megumi.png" class="megumi-icon">
+                    <span class="name">Fushiguro Megumi</span>
+                  </button>
+                </div>
+
+                <div class="switcher-button-wrapper">
+                  <button data-state="4">
+                    <img src="/public/yuta.png" class="yuta-icon">
+                    <span class="name">Okkotsu Yuta</span>
+                  </button>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="canvas-wrapper">
+            <canvas></canvas>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
