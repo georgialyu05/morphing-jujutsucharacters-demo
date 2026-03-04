@@ -1,4 +1,4 @@
-# Morphing Effect with Canvas2d
+# Morphing Effect for Jujutsu kaisen characters
 
 Demo of the morphing effect as seen on [Dream Machine](https://lumalabs.ai/dream-machine) by Luma Labs.
 
