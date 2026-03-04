@@ -14,6 +14,7 @@ This morphing effect was created by Chakib Mazouni
 
 In this article, he shared how to made this effect
 [Article on Codrops](https://tympanus.net/codrops/?p=83563)
+
 And his github:[GitHub](https://github.com/codrops)
 
 [Demo](https://tympanus.net/Tutorials/MorphingEffectCanvas2D/)
