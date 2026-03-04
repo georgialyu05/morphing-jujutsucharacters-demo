@@ -21,9 +21,8 @@ And his github:[GitHub](https://github.com/codrops)
 
 ## Misc
 
-Follow Georgia:
+Follow Georgia:[LinkedIn](www.linkedin.com/in/georgia-lyu-899349270)
 
 ## License
 - **Code**: Licensed under the [MIT License](LICENSE).
-- **Images**: Copyright by Chakib Mazouni and Luma AI. Images may not be reused, redistributed, or modified without explicit permission from Luma Labs.
-
+- **Images**: Copyright by Georgia Lyu.
