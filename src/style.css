@@ -395,6 +395,80 @@ a {
 }
 }
 
+@media (max-width: 480px) {
+
+  /* 0) 让 track 作为“窗口”裁切左右，但 container 给左右留空间 */
+  .switcher-container{
+    width: 100%;
+    padding-left: max(56px, env(safe-area-inset-left));
+    padding-right: max(56px, env(safe-area-inset-right));
+  }
+
+  .switcher-track{
+    overflow: hidden;          /* ✅ 只裁 track，别裁 container */
+    width: 100%;
+  }
+
+  /* 1) gap 小一点，避免挤 */
+  .switcher{
+    gap: 14px;
+  }
+
+  /* 2) 默认按钮小一点（非 active 就是圆/胶囊小块） */
+  .switcher-button-wrapper button{
+    width: 56px;
+    height: 56px;
+    padding: 0;
+  }
+
+  .switcher-button-wrapper button img{
+    width: 34px !important;
+    height: 34px !important;
+  }
+
+  /* 3) ✅ active：不要固定 300px，改成 clamp，保证两侧还有空间露出 icon */
+  .switcher-button-wrapper.active button{
+    width: clamp(180px, 62vw, 240px);
+    height: 56px;
+    padding: 0 16px;
+  }
+
+  .switcher-button-wrapper.active button .name{
+    display: inline;
+    font-size: 16px;          /* 你现在 20px 在手机上有点大 */
+  }
+
+  /* 4) active 状态你把 icon absolute 往外顶了：手机上缩小这个“溢出量” */
+  .switcher-button-wrapper.active button
+  .gojo-icon,
+  .switcher-button-wrapper.active button
+  .yuji-icon,
+  .switcher-button-wrapper.active button
+  .megumi-icon,
+  .switcher-button-wrapper.active button
+  .maki-icon,
+  .switcher-button-wrapper.active button
+  .choso-icon,
+  .switcher-button-wrapper.active button
+  .yuki-icon,
+  .switcher-button-wrapper.active button
+  .hajime-icon,
+  .switcher-button-wrapper.active button
+  .kinji-icon{
+    top: -16px;
+    left: -10px;
+    width: 56px !important;
+    height: 56px !important;
+  }
+
+  .switcher-button-wrapper.active button .yuta-icon{
+    top: -22px;
+    left: -14px;
+    width: 74px !important;
+    height: 74px !important;
+  }
+}
+
 button .yuta-icon {
   width: 60px;
   height: 60px;
