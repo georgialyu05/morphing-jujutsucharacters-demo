@@ -17,8 +17,6 @@ In this article, he shared how to made this effect
 
 And his github:[GitHub](https://github.com/codrops)
 
-[Demo](https://tympanus.net/Tutorials/MorphingEffectCanvas2D/)
-
 
 ## Misc
 
